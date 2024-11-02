@@ -1,0 +1,17 @@
+.Banner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 100px;
+}
+.text-wapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.imag img {
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}

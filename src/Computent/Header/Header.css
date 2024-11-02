@@ -1,0 +1,29 @@
+.HeaderWapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #ffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px 100px;
+  margin: 0 auto;
+}
+.HeaderWapper h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.rotate {
+  flex-direction: row-reverse;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+  color: var(--text-color);
+}
